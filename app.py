@@ -3,7 +3,7 @@ from joblib import load
 import numpy as np
 
 # Load the trained model
-model_filename = "C:\\Users\\Sahil\\Desktop\\Project\\taxi_fare_model.pkl"
+model_filename = "taxi_fare_model.pkl"
 model = load(model_filename)
 
 # Define the Streamlit App
