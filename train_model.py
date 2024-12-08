@@ -8,7 +8,7 @@ import xgboost as xgb
 
 # Step 1: Load the dataset
 # Replace with your dataset path
-dataset_path = 'C:\\Users\\Sahil\\Desktop\\Project\\custom_taxi_fare_dataset.csv'  # Update with your file location
+dataset_path = 'train.csv'  # Update with your file location
 df = pd.read_csv(dataset_path)
 
 # Display dataset summary
